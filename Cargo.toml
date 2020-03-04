@@ -4,4 +4,8 @@ version = "0.1.0"
 authors = ["aion"]
 
 [dependencies]
-curl = "*"
+curl = "0.4"
+
+[[bin]]
+path = "src/main.rs"
+name = "test1"
